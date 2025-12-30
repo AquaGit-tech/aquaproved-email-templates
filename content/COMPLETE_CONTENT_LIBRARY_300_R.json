@@ -1,33 +1,33 @@
 {
-  "serie": "400",
-  "beschrijving": "AQP; Kelderbehandelingen",
+  "serie": "300_R",
+  "beschrijving": "AQP; Ventilatie D Renson Waves",
   "email_intros": {
-    "TYPE_1": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een e-mail over het inplannen van de&nbsp;kelderbehandeling. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze&nbsp;herinnering.</p>",
-    "TYPE_2": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een eerste herinnering over het inplannen van de&nbsp;kelderbehandeling. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze tweede&nbsp;herinnering.</p>"
+    "TYPE_1": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een e-mail over het inplannen van de&nbsp;installatie. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze&nbsp;herinnering.</p>",
+    "TYPE_2": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een eerste herinnering over het inplannen van de&nbsp;installatie. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze tweede&nbsp;herinnering.</p>"
   },
   "werkduur_paragraphs": {
-    "400": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderbehandeling duurt maximaal&nbsp;<strong style=\"color:#333;\">een&nbsp;halve&nbsp;dag</strong>.</p>",
-    "410": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderbehandeling duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
-    "420": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderbehandeling duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;dagen</strong>.</p>",
-    "430": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderbehandeling duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;dagen</strong>.</p>",
-    "440": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderbehandeling duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;dagen</strong>.</p>",
-    "450": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderbehandeling duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>"
+    "300": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van het Renson&nbsp;Waves ventilatiesysteem duurt maximaal&nbsp;<strong style=\"color:#333;\">een&nbsp;halve&nbsp;dag</strong>.</p>",
+    "310": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Renson&nbsp;Waves ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
+    "320": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Renson&nbsp;Waves ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;dagen</strong>.</p>",
+    "330": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Renson&nbsp;Waves ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;dagen</strong>.</p>",
+    "340": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Renson&nbsp;Waves ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;dagen</strong>.</p>",
+    "350": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Renson&nbsp;Waves ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>"
   },
   "cta_paragraphs": {
-    "400": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op een datum en tijdstip naar&nbsp;keuze.</strong></p>",
-    "410": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op een datum naar&nbsp;keuze.</strong></p>",
-    "420": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op twee aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
-    "430": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op drie aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
-    "440": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op vier aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
-    "450": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op vijf aaneensluitende dagen naar&nbsp;keuze.</strong></p>"
+    "300": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op een datum en tijdstip naar&nbsp;keuze.</strong></p>",
+    "310": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op een datum naar&nbsp;keuze.</strong></p>",
+    "320": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op twee aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
+    "330": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op drie aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
+    "340": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vier aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
+    "350": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vijf aaneensluitende dagen naar&nbsp;keuze.</strong></p>"
   },
   "calendly_urls": {
-    "400": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-halve-dag",
-    "410": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-hele-dag",
-    "420": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen",
-    "430": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen",
-    "440": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen",
-    "450": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen"
+    "300": "https://calendly.com/aquaproved/type-d-halve-dag",
+    "310": "https://calendly.com/aquaproved/type-d-uitvoering-dag",
+    "320": "https://calendly.com/aquaproved/type-d-dagen",
+    "330": "https://calendly.com/aquaproved/type-d-dagen",
+    "340": "https://calendly.com/aquaproved/type-d-dagen",
+    "350": "https://calendly.com/aquaproved/type-d-dagen"
   },
   "voorschot_section": {
     "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
@@ -57,5 +57,21 @@
       "telefoon_display": "+32&nbsp;492&nbsp;698&nbsp;275",
       "telefoon_link": "+32492698275"
     }
+  },
+  "plaatsing_titels": {
+    "300": "1. Voor de plaatsing van het ventilatiesysteem",
+    "310": "1. Voor de plaatsing van de ventilatiesystemen",
+    "320": "1. Voor de plaatsing van de ventilatiesystemen",
+    "330": "1. Voor de plaatsing van de ventilatiesystemen",
+    "340": "1. Voor de plaatsing van de ventilatiesystemen",
+    "350": "1. Voor de plaatsing van de ventilatiesystemen"
+  },
+  "plaatsing_bullets": {
+    "300": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar het systeem geplaatst&nbsp;wordt.",
+    "310": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "320": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "330": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "340": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "350": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden."
   }
 }
