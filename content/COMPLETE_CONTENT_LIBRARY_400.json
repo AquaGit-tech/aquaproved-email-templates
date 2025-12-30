@@ -22,12 +22,12 @@
     "450": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op vijf aaneensluitende dagen naar&nbsp;keuze.</strong></p>"
   },
   "calendly_urls": {
-    "400": "https://calendly.com/aquaproved/aqp-kelderbehandeling-halve-dag",
-    "410": "https://calendly.com/aquaproved/aqp-kelderbehandeling-uitvoering-hele-dag",
-    "420": "https://calendly.com/aquaproved/aqp-kelderbehandeling-uitvoering-versch-dagen",
-    "430": "https://calendly.com/aquaproved/aqp-kelderbehandeling-uitvoering-versch-dagen",
-    "440": "https://calendly.com/aquaproved/aqp-kelderbehandeling-uitvoering-versch-dagen",
-    "450": "https://calendly.com/aquaproved/aqp-kelderbehandeling-uitvoering-versch-dagen"
+    "400": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-halve-dag",
+    "410": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-hele-dag",
+    "420": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen",
+    "430": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen",
+    "440": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen",
+    "450": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen"
   },
   "voorschot_section": {
     "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
