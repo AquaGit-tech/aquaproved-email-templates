@@ -22,12 +22,12 @@
     "550": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vijf aaneensluitende dagen naar&nbsp;keuze.</strong></p>"
   },
   "calendly_urls": {
-    "500": "https://calendly.com/aquaproved/aqp-kelderdichting-halve-dag",
-    "510": "https://calendly.com/aquaproved/aqp-kelderdichting-uitvoering-hele-dag",
-    "520": "https://calendly.com/aquaproved/aqp-kelderdichting-uitvoering-versch-dagen",
-    "530": "https://calendly.com/aquaproved/aqp-kelderdichting-uitvoering-versch-dagen",
-    "540": "https://calendly.com/aquaproved/aqp-kelderdichting-uitvoering-versch-dagen",
-    "550": "https://calendly.com/aquaproved/aqp-kelderdichting-uitvoering-versch-dagen"
+    "500": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-halve-dag",
+    "510": "https://calendly.com/aquaproved/behandeling-kelder-dichting-uitvoering-dag",
+    "520": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+    "530": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+    "540": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+    "550": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen"
   },
   "voorschot_section": {
     "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
