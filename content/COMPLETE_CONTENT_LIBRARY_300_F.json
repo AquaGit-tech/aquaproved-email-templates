@@ -22,12 +22,12 @@
     "350": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vijf aaneensluitende dagen naar&nbsp;keuze.</strong></p>"
   },
   "calendly_urls": {
-    "300": "https://calendly.com/aquaproved/aqp-ventilatie-d-halve-dag",
-    "310": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-hele-dag",
-    "320": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen",
-    "330": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen",
-    "340": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen",
-    "350": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen"
+    "300": "https://calendly.com/aquaproved/type-d-halve-dag",
+    "310": "https://calendly.com/aquaproved/type-d-uitvoering-dag",
+    "320": "https://calendly.com/aquaproved/type-d-dagen",
+    "330": "https://calendly.com/aquaproved/type-d-dagen",
+    "340": "https://calendly.com/aquaproved/type-d-dagen",
+    "350": "https://calendly.com/aquaproved/type-d-dagen"
   },
   "voorschot_section": {
     "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
