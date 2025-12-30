@@ -1,0 +1,77 @@
+{
+  "serie": "300_M",
+  "beschrijving": "AQP; Ventilatie D Meltem M-WRG-S",
+  "email_intros": {
+    "TYPE_1": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een e-mail over het inplannen van de&nbsp;installatie. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze&nbsp;herinnering.</p>",
+    "TYPE_2": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een eerste herinnering over het inplannen van de&nbsp;installatie. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze tweede&nbsp;herinnering.</p>"
+  },
+  "werkduur_paragraphs": {
+    "300": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van het Meltem&nbsp;M-WRG-S ventilatiesysteem duurt maximaal&nbsp;<strong style=\"color:#333;\">een&nbsp;halve&nbsp;dag</strong>.</p>",
+    "310": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Meltem&nbsp;M-WRG-S ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
+    "320": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Meltem&nbsp;M-WRG-S ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;dagen</strong>.</p>",
+    "330": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Meltem&nbsp;M-WRG-S ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;dagen</strong>.</p>",
+    "340": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Meltem&nbsp;M-WRG-S ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;dagen</strong>.</p>",
+    "350": "<p style=\"margin:0 0 8px 0;\">De&nbsp;installatie van de Meltem&nbsp;M-WRG-S ventilatiesystemen duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>"
+  },
+  "cta_paragraphs": {
+    "300": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op een datum en tijdstip naar&nbsp;keuze.</strong></p>",
+    "310": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op een datum naar&nbsp;keuze.</strong></p>",
+    "320": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op twee aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
+    "330": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op drie aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
+    "340": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vier aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
+    "350": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vijf aaneensluitende dagen naar&nbsp;keuze.</strong></p>"
+  },
+  "calendly_urls": {
+    "300": "https://calendly.com/aquaproved/aqp-ventilatie-d-halve-dag",
+    "310": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-hele-dag",
+    "320": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen",
+    "330": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen",
+    "340": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen",
+    "350": "https://calendly.com/aquaproved/aqp-ventilatie-d-uitvoering-versch-dagen"
+  },
+  "voorschot_section": {
+    "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
+  },
+  "teamlid_data": {
+    "Jean-Pierre": {
+      "naam": "Jean-Pierre",
+      "email": "jean-pierre@aquaproved.be",
+      "telefoon_display": "+32&nbsp;491&nbsp;255&nbsp;908",
+      "telefoon_link": "+32491255908"
+    },
+    "Pieter": {
+      "naam": "Pieter",
+      "email": "pieter@aquaproved.be",
+      "telefoon_display": "+32&nbsp;492&nbsp;476&nbsp;454",
+      "telefoon_link": "+32492476454"
+    },
+    "Yannick": {
+      "naam": "Yannick",
+      "email": "yannick@aquaproved.be",
+      "telefoon_display": "+32&nbsp;486&nbsp;355&nbsp;702",
+      "telefoon_link": "+32486355702"
+    },
+    "Yves": {
+      "naam": "Yves",
+      "email": "yves@aquaproved.be",
+      "telefoon_display": "+32&nbsp;492&nbsp;698&nbsp;275",
+      "telefoon_link": "+32492698275"
+    }
+  },
+  "plaatsing_titels": {
+    "300": "1. Voor de plaatsing van het ventilatiesysteem",
+    "310": "1. Voor de plaatsing van de ventilatiesystemen",
+    "320": "1. Voor de plaatsing van de ventilatiesystemen",
+    "330": "1. Voor de plaatsing van de ventilatiesystemen",
+    "340": "1. Voor de plaatsing van de ventilatiesystemen",
+    "350": "1. Voor de plaatsing van de ventilatiesystemen"
+  },
+  "plaatsing_bullets": {
+    "300": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar het systeem geplaatst&nbsp;wordt.",
+    "310": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "320": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "330": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "340": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden.",
+    "350": "Zorg voor minimaal 2&nbsp;meter vrije ruimte waar de systemen geplaatst&nbsp;worden."
+  }
+}
