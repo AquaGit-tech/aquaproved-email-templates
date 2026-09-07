@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--
+MASTER_TEMPLATE_AANVRAAG - V2.0 - 08/07/2026
+----------------
+Master voor de aanvraagflow (aanvraag -> afspraak), naar het patroon van de
+Planning-masters. Skelet = V1.4-aanvraagflow (lijn AQP_Geen_Gehoor V1.3).
+Slots (elk slot mag leeg renderen; blokken zijn volledige <p>/tabel-
+structuren uit CONTENT_LIBRARY_AANVRAAG.json):
+  {{kop}} {{aanhef}} {{situatie_echo}} {{expertise_zin}} {{erkenning_zin}}
+  {{intro}} {{extra_alinea}} {{bullets_block}} {{cta_block}} {{slotregel}}
+Plus: Jean-Pierre jean-pierre@aquaproved.be +32&nbsp;491&nbsp;255&nbsp;908
++32491255908 __VOORNAAM__ en {{calendly_url}}
+(die laatste zit in het cta_block van tak A).
+Assembleren: tools/render_aanvraag.py (assembly-regels PERSONALISATIE_ENGINE.md).
+Subjects horen in de Make.com Gmail-module; zie "subject" per moment in de
+library.
+V2.0: volledige copy-vervanging op Wim's skelet (V1_18_COPY_CANONIEK.md);
+slots versoberd tot aanhef/intro/extra_alinea/cta_block/slotregel;
+basiscopy = V1_17. Historie: Archive/.
+V1.11: Maven-pakket (nummer-aankondiging M0, foto-micro-actie M0B,
+prijslink M2, meevaller/verlangen M3, platform-snippet via lead-veld
+bron, momenten R1/R2 tak-loos onder sleutel ALL); basiscopy = V1_15.
+V1.10: responstijd-belofte naar 'vandaag nog'; basiscopy = V1_14.
+V1.9: tijdstip-gesplitste M0-opener (lead-veld buiten_kantooruren,
+default false), compressie M0, M2B-bold; basiscopy = V1_13.
+V1.8: site-register, bullets vervangen door selectieve bold,
+1-op-6-bewijs in M0; basiscopy-referentie = V1_12.
+V1.7: reeks-consistentie na externe review (eerlijkheids-claim 1x,
+angstzin M4 weg, CTA-regel uniform, M4-contactopruiming);
+basiscopy-referentie = V1_11.
+V1.6: customer-first pass M0 (correctie Wim);
+basiscopy-referentie = V1_10.
+V1.5: vakman-opener M0, statische <br>-regelafbreking in de
+library-blokken (weduwe-regel Wim) en merk-tagline verwijderd;
+basiscopy-referentie = V1_9.
+V1.4: lay-out-pariteit met productie-planningsmails (linkse
+uitlijning, 600px-container, outline-knop, correctie Wim);
+basiscopy-referentie = V1_8.
+V1.3: slot teamlid_signature (accolade-notatie weggelaten in deze notitie) = letterlijke per-rep
+Gmail-signature uit library teamlid_signatures (beslissing Wim);
+basiscopy-referentie = V1_7.
+V1.2: persoonlijke look (banner/kop/body-badge weg; {{kop}}-slot
+vervallen), officiele per-rep-signature met https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/aqp-vcard-jean-pierre-verbracke.png,
+alle assets naar GitHub raw; basiscopy-referentie = V1_6.
+V1.1: volwaardig rep-signature-blok naar productie-model
+(MASTER_TEMPLATE_100), basiscopy-referentie = V1_5.
+-->
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>AQUAPROVED - Aanvraagflow Master</title>
+</head>
+<body style="margin:0; padding:0; background-color:#ffffff;">
+<div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#ffffff;">Jean-Pierre Verbracke, technisch adviseur voor __REGIO__, volgt uw aanvraag op.</div>
+<div style="max-width:600px; margin:0; padding:0; font-family:Arial, sans-serif; font-size:14px; line-height:1.5; color:#333;">
+
+<p style="margin:0 0 8px 0;">Beste __VOORNAAM__,</p>
+
+<p style="margin:0 0 8px 0;">Uw aanvraag kwam net bij mij binnen. Ik ben Jean-Pierre Verbracke, technisch adviseur bij Aquaproved voor __REGIO__, en ik volg ze persoonlijk op.</p>
+__ECHO_ALINEA__
+
+<p style="margin:0 0 8px 0;">Ik bel u vandaag nog__OP_KLANTTEL__. Mijn nummer is 0491 25 59 08. Slaat u het even op, dan weet u dat ik het ben.</p>
+<p style="margin:0 0 8px 0;">We overlopen samen uw situatie. Kan ik iets voor u doen, dan kom ik vrijblijvend langs voor de gratis diagnose. Blijkt dat u ons niet nodig heeft, dan hoort u dat van mij.</p>
+<p style="margin:0 0 8px 0;">Krijg ik u vandaag niet te pakken, dan probeer ik het de komende dagen opnieuw.</p>
+
+<p style="margin:0 0 8px 0;">Tot straks,<br>Jean-Pierre</p>
+
+<table cellpadding="0" cellspacing="0" style="font-family: Arial, sans-serif; color:#000; line-height:1.3; text-decoration:none; border-collapse:collapse;"><tbody>
+		<tr>
+			<td style="padding:0; font-size:14px; text-decoration:none !important;">Tot uw dienst,<br />
+			Met vriendelijke groet,</td>
+		</tr>
+		<tr>
+			<td style="height:8px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="padding:12px; text-decoration:none !important;">
+			<table cellpadding="0" cellspacing="0" style="width:100%; border-collapse:collapse; text-decoration:none !important;">
+				<tbody>
+					<tr>
+						<td style="text-decoration:none !important; vertical-align:top;">
+						<table cellpadding="0" cellspacing="0" style="font-family: Arial, sans-serif; color:#000; border-collapse:collapse; text-decoration:none !important;"><tbody>
+								<tr>
+									<td style="padding-top:1px; padding-bottom:14px; text-decoration:none !important;">
+									<table cellpadding="0" cellspacing="0" style="line-height:1.15; border-collapse:collapse; text-decoration:none !important;">
+										<tbody>
+											<tr>
+												<td style="text-decoration:none !important; white-space: nowrap;"><a href="https://www.aquaproved.be" style="text-decoration:none !important; border:none !important; outline:none !important; color:#33b2d2; font-family:'Proxima Nova', Arial, sans-serif; font-size:17px; font-weight:700; display:inline-block;"><span style="text-decoration:none !important; border:none !important; outline:none !important; display:inline-block;">AQUAPROVED&nbsp;BV </span> </a></td>
+											</tr>
+											<tr>
+												<td style="text-decoration:none !important;"><a href="https://www.aquaproved.be" style="text-decoration:none !important; border:none !important; outline:none !important; color:#33b2d2; font-family:Arial, sans-serif; font-size:13px; display:inline-block;"><span style="text-decoration:none !important; border:none !important; outline:none !important; display:inline-block;">www.aquaproved.be </span> </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="text-decoration:none !important;">
+									<table cellpadding="0" cellspacing="0" style="font-family: Arial, sans-serif; color:#000; border-collapse:collapse; text-decoration:none !important;"><tbody>
+											<tr>
+												<td style="padding-bottom:17px; text-decoration:none !important;">
+												<table cellpadding="0" cellspacing="0" style="line-height:1.35; border-collapse:collapse; text-decoration:none !important;">
+													<tbody>
+														<tr>
+															<td style="text-decoration:none !important; line-height: 18px; white-space: nowrap;"><span style="font-family:Arial, sans-serif; font-size:13px; font-weight:400; text-decoration:none !important;"><nobr>Jean-Pierre&nbsp;Verbracke</nobr> </span></td>
+														</tr>
+														<tr>
+															<td style="text-decoration:none !important; white-space: nowrap;"><a href="tel:+32491255908" style="text-decoration:none !important; border:none !important; outline:none !important; color:#33b2d2; font-family:Arial, sans-serif; font-size:13px; display:inline-block;"><span style="text-decoration:none !important; border:none !important; outline:none !important; display:inline-block;"><nobr>+32&nbsp;491&nbsp;255&nbsp;908</nobr></span></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td style="padding-top:0; text-decoration:none !important;">
+												<table cellpadding="0" cellspacing="0" style="border-collapse:collapse; line-height:0; font-size:0;">
+													<tbody>
+														<tr>
+															<td style="padding:0; text-decoration:none !important;"><a href="https://www.youtube.com/@Aquaproved" style="text-decoration:none !important; border:none !important; display:inline-block;"><img alt="YouTube" src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/YT.png" style="display:block; border:0; outline:none; height:20px; width:auto;" /> </a></td>
+															<td style="width:11px; font-size:0; line-height:0;">&nbsp;</td>
+															<td style="padding:0; text-decoration:none !important;"><a href="https://www.facebook.com/aquaproved/" style="text-decoration:none !important; border:none !important; display:inline-block;"><img alt="Facebook" src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/FB.png" style="display:block; border:0; outline:none; height:20px; width:auto;" /> </a></td>
+															<td style="width:11px; font-size:0; line-height:0;">&nbsp;</td>
+															<td style="padding:0; text-decoration:none !important;"><a href="https://www.instagram.com/aquaproved/" style="text-decoration:none !important; border:none !important; display:inline-block;"><img alt="Instagram" src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/IG.png" style="display:block; border:0; outline:none; height:20px; width:auto;" /> </a></td>
+															<td style="width:11px; font-size:0; line-height:0;">&nbsp;</td>
+															<td style="padding:0; text-decoration:none !important;"><a href="#" style="text-decoration:none !important; border:none !important; display:inline-block;"><img alt="TikTok" src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/TT.png" style="display:block; border:0; outline:none; height:20px; width:auto;" /> </a></td>
+															<td style="width:11px; font-size:0; line-height:0;">&nbsp;</td>
+															<td style="padding:0; text-decoration:none !important;"><a href="#" style="text-decoration:none !important; border:none !important; display:inline-block;"><img alt="LinkedIn" src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/IN.png" style="display:block; border:0; outline:none; height:20px; width:auto;" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td style="padding-top:20px; text-decoration:none !important;">
+													<a href="https://www.google.com/search?sca_esv=1c57431be9b2745b&authuser=2&biw=384&bih=755&sxsrf=AE3TifOurH51ZS6tb-ohgfbLTThwykwoaQ:1759844510234&q=reviews+voor+aquaproved&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzoTHU0dqINBvjK3ck7Wnf7T5143yMD5JBvb24nut1_5Pwx7ghwm768mULZMIjhn2Y2OZ-f_egeLLWGTXJ7M5KHKCMkwhed9zW0vXQbSbA9zBv8RM4rlZCJJh7d78LY1097AGhc511sFpTSEaIDMjVPRvljKloD-_bJQ_jlC7v4p4LaNMW7DfT_140LWSoKgUQspjdCfWFfUjmeJ7k2CEk1wGfQM4q1lGF_lCDutc16HTIIOID1dZ81AhR29E8hKmtiPui-dP1UnrACuCqohy4HEj87zYqzY8IO1cIMNnh_KVrYXvXNZeL3nQV12aSfZIsp8rvIMmDzYsdV_hIYiOAfUssiOmUn_LyJNNgj617LXgr606W&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E5plK2McKJHCrm7mxHLf4upGHbDaEcCq_qkgrFHZIUgq64OW4hGEWEA6Ah9QAVClVFTEQ9q_mWWNqic9upxLiuziGahC&sa=X&ved=2ahUKEwi9yZHXm5KQAxXFVaQEHTRsAwYQxKsJKAB6BAgMEAE&ictx=1&stq=1&cs=0&lei=nhjlaL2CDsWrkdUPtNiNMA" style="text-decoration:none; border:0;">
+														<img src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/google_review_badge/google_review_badge_email_handtekening.png" alt="Google Reviews 4.8 Stars" style="display:block; border:0; outline:none; height:auto;" width="144" />
+													</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td style="text-decoration:none !important; vertical-align:top;">
+							<table cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+								<tbody>
+									<tr>
+										<td style="width:30px; font-size:0; line-height:0;">&nbsp;</td>
+										<td>
+											<img alt="Aquaproved logo" src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/AQP_logo_signature_general_mode.png" style="display:block; border:0; outline:none; height:auto; text-decoration:none !important;" width="140" />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+  <tr>
+			<td style="padding-top:70px; padding-left:12px; font-family: Arial, sans-serif; font-size:10px; color:#535554;">
+				Contactgegevens<br />
+				<a href="https://uqr.to/1wjo7" style="text-decoration:none; border:0;">
+					<img src="https://raw.githubusercontent.com/AquaGit-tech/aquaproved-email-templates/main/signature_assets/aqp-vcard-jean-pierre-verbracke.png" alt="Scan voor contactgegevens" style="display:block; border:0; outline:none; margin-top:1px; margin-left: -1px;" width="88" />
+				</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</body>
+</html>
