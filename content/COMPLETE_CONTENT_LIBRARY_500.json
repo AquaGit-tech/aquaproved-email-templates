@@ -14,12 +14,12 @@
     "550": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>"
   },
   "cta_paragraphs": {
-    "500": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum en tijdstip naar&nbsp;keuze.</strong></p>",
-    "510": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum naar&nbsp;keuze.</strong></p>",
-    "520": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op twee aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
-    "530": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op drie aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
-    "540": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vier aaneensluitende dagen naar&nbsp;keuze.</strong></p>",
-    "550": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vijf aaneensluitende dagen naar&nbsp;keuze.</strong></p>"
+    "500": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+    "510": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+    "520": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op twee aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+    "530": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op drie aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+    "540": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vier aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+    "550": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vijf aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
   },
   "calendly_urls": {
     "500": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-halve-dag",
