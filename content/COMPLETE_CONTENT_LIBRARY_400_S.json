@@ -8,16 +8,16 @@
  "werkduur_paragraphs": {
   "400": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt maximaal&nbsp;<strong style=\"color:#333;\">een&nbsp;halve&nbsp;dag</strong>.</p>",
   "410": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
-  "420": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;dagen</strong>.</p>",
-  "430": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;dagen</strong>.</p>",
-  "440": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;dagen</strong>.</p>",
-  "450": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>",
+  "420": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;werkdagen</strong>.</p>",
+  "430": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;werkdagen</strong>.</p>",
+  "440": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;werkdagen</strong>.</p>",
+  "450": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;werkdagen</strong>.</p>",
   "09": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
-  "16": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zes&nbsp;dagen</strong>.</p>",
-  "17": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zeven&nbsp;dagen</strong>.</p>",
-  "18": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">acht&nbsp;dagen</strong>.</p>",
-  "19": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">negen&nbsp;dagen</strong>.</p>",
-  "20": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">tien&nbsp;dagen</strong>.</p>"
+  "16": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zes&nbsp;werkdagen</strong>.</p>",
+  "17": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zeven&nbsp;werkdagen</strong>.</p>",
+  "18": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">acht&nbsp;werkdagen</strong>.</p>",
+  "19": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">negen&nbsp;werkdagen</strong>.</p>",
+  "20": "<p style=\"margin:0 0 8px 0;\">De&nbsp;dichting van de doorvoeren met Stopaq duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">tien&nbsp;werkdagen</strong>.</p>"
  },
  "cta_paragraphs": {
   "400": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de&nbsp;dichting van de doorvoeren met Stopaq in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
