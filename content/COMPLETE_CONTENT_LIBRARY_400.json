@@ -22,16 +22,16 @@
  "cta_paragraphs": {
   "400": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
   "410": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
-  "420": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op twee werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "430": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op drie werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "440": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op vier werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "450": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op vijf werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "420": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op twee aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "430": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op drie aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "440": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op vier aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "450": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op vijf aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
   "09": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
-  "16": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op zes werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "17": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op zeven werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "18": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op acht werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "19": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op negen werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "20": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op tien werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
+  "16": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op zes aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "17": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op zeven aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "18": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op acht aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "19": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op negen aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "20": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderbehandeling in op tien aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
  },
  "calendly_urls": {
   "400": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-halve-dag",
