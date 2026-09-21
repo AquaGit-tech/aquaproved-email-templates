@@ -1,61 +1,79 @@
 {
-  "serie": "500",
-  "beschrijving": "AQP; Kelderdichting",
-  "email_intros": {
-    "TYPE_1": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een e-mail over het inplannen van de&nbsp;kelderdichtingswerken. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze&nbsp;herinnering.</p>",
-    "TYPE_2": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een eerste herinnering over het inplannen van de&nbsp;kelderdichtingswerken. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze tweede&nbsp;herinnering.</p>"
+ "serie": "500",
+ "beschrijving": "AQP; Kelderdichting",
+ "email_intros": {
+  "TYPE_1": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een e-mail over het inplannen van de&nbsp;kelderdichtingswerken. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze&nbsp;herinnering.</p>",
+  "TYPE_2": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een eerste herinnering over het inplannen van de&nbsp;kelderdichtingswerken. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze tweede&nbsp;herinnering.</p>"
+ },
+ "werkduur_paragraphs": {
+  "500": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren maximaal&nbsp;<strong style=\"color:#333;\">een&nbsp;halve&nbsp;dag</strong>.</p>",
+  "510": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
+  "520": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "530": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "540": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "550": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "09": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
+  "16": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zes&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "17": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zeven&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "18": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">acht&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "19": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">negen&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>",
+  "20": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de kelderdichtingswerken, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">tien&nbsp;werkdagen</strong>. De&nbsp;ploeg is daardoor niet elke dag ter plaatse: die wachttijden zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland.</p>"
+ },
+ "cta_paragraphs": {
+  "500": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+  "510": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+  "520": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op twee werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "530": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op drie werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "540": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vier werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "550": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vijf werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "09": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+  "16": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op zes werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "17": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op zeven werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "18": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op acht werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "19": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op negen werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "20": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op tien werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
+ },
+ "calendly_urls": {
+  "500": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-halve-dag",
+  "510": "https://calendly.com/aquaproved/behandeling-kelder-dichting-uitvoering-dag",
+  "520": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "530": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "540": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "550": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "09": "https://calendly.com/aquaproved/behandeling-kelder-dichting-uitvoering-dag",
+  "16": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "17": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "18": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "19": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
+  "20": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen"
+ },
+ "voorschot_section": {
+  "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
+ },
+ "teamlid_data": {
+  "Jean-Pierre": {
+   "naam": "Jean-Pierre",
+   "email": "jean-pierre@aquaproved.be",
+   "telefoon_display": "+32&nbsp;491&nbsp;255&nbsp;908",
+   "telefoon_link": "+32491255908"
   },
-  "werkduur_paragraphs": {
-    "500": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren maximaal&nbsp;<strong style=\"color:#333;\">een&nbsp;halve&nbsp;dag</strong>.</p>",
-    "510": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;dag</strong>.</p>",
-    "520": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;dagen</strong>.</p>",
-    "530": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;dagen</strong>.</p>",
-    "540": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;dagen</strong>.</p>",
-    "550": "<p style=\"margin:0 0 8px 0;\">De&nbsp;kelderdichtingswerken duren, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>"
+  "Pieter": {
+   "naam": "Pieter",
+   "email": "pieter@aquaproved.be",
+   "telefoon_display": "+32&nbsp;492&nbsp;476&nbsp;454",
+   "telefoon_link": "+32492476454"
   },
-  "cta_paragraphs": {
-    "500": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
-    "510": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
-    "520": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op twee aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-    "530": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op drie aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-    "540": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vier aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-    "550": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de kelderdichtingswerken in op vijf aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
+  "Yannick": {
+   "naam": "Yannick",
+   "email": "yannick@aquaproved.be",
+   "telefoon_display": "+32&nbsp;486&nbsp;355&nbsp;702",
+   "telefoon_link": "+32486355702"
   },
-  "calendly_urls": {
-    "500": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-halve-dag",
-    "510": "https://calendly.com/aquaproved/behandeling-kelder-dichting-uitvoering-dag",
-    "520": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
-    "530": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
-    "540": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen",
-    "550": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen"
-  },
-  "voorschot_section": {
-    "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
-  },
-  "teamlid_data": {
-    "Jean-Pierre": {
-      "naam": "Jean-Pierre",
-      "email": "jean-pierre@aquaproved.be",
-      "telefoon_display": "+32&nbsp;491&nbsp;255&nbsp;908",
-      "telefoon_link": "+32491255908"
-    },
-    "Pieter": {
-      "naam": "Pieter",
-      "email": "pieter@aquaproved.be",
-      "telefoon_display": "+32&nbsp;492&nbsp;476&nbsp;454",
-      "telefoon_link": "+32492476454"
-    },
-    "Yannick": {
-      "naam": "Yannick",
-      "email": "yannick@aquaproved.be",
-      "telefoon_display": "+32&nbsp;486&nbsp;355&nbsp;702",
-      "telefoon_link": "+32486355702"
-    },
-    "Yves": {
-      "naam": "Yves",
-      "email": "yves@aquaproved.be",
-      "telefoon_display": "+32&nbsp;492&nbsp;698&nbsp;275",
-      "telefoon_link": "+32492698275"
-    }
+  "Yves": {
+   "naam": "Yves",
+   "email": "yves@aquaproved.be",
+   "telefoon_display": "+32&nbsp;492&nbsp;698&nbsp;275",
+   "telefoon_link": "+32492698275"
   }
+ }
 }
