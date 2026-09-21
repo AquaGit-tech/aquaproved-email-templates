@@ -12,16 +12,26 @@
   "12": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;dagen</strong>.</p>",
   "13": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;dagen</strong>.</p>",
   "14": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;dagen</strong>.</p>",
-  "15": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>"
+  "15": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;dagen</strong>.</p>",
+  "16": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zes&nbsp;dagen</strong>.</p>",
+  "17": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zeven&nbsp;dagen</strong>.</p>",
+  "18": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">acht&nbsp;dagen</strong>.</p>",
+  "19": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">negen&nbsp;dagen</strong>.</p>",
+  "20": "<p style=\"margin:0 0 8px 0;\">De&nbsp;herstelling van de vochtschade aan het plafond duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">tien&nbsp;dagen</strong>.</p>"
  },
  "cta_paragraphs": {
   "09": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
   "10": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
   "11": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
-  "12": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op twee aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "13": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op drie aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "14": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op vier aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "15": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op vijf aaneensluitende dagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
+  "12": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op twee werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "13": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op drie werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "14": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op vier werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "15": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op vijf werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "16": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op zes werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "17": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op zeven werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "18": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op acht werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "19": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op negen werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "20": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de herstelling van de vochtschade aan het plafond in op tien werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
  },
  "calendly_urls": {
   "10": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-halve-dag",
@@ -30,7 +40,12 @@
   "13": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen",
   "14": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen",
   "15": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen",
-  "09": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-hele-dag"
+  "09": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-hele-dag",
+  "16": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen",
+  "17": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen",
+  "18": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen",
+  "19": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen",
+  "20": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen"
  },
  "voorschot_section": {
   "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
