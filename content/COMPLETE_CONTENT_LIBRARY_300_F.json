@@ -22,16 +22,16 @@
  "cta_paragraphs": {
   "300": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
   "310": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
-  "320": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op twee werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "330": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op drie werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "340": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vier werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "350": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vijf werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "320": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op twee aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "330": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op drie aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "340": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vier aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "350": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op vijf aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
   "09": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
-  "16": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op zes werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "17": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op zeven werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "18": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op acht werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "19": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op negen werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
-  "20": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op tien werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
+  "16": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op zes aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "17": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op zeven aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "18": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op acht aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "19": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op negen aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "20": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de installatie in op tien aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
  },
  "calendly_urls": {
   "300": "https://calendly.com/aquaproved/type-d-halve-dag",
