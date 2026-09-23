@@ -1,0 +1,79 @@
+{
+ "serie": "100_G",
+ "beschrijving": "AQP; Gevelbehandeling (injectie + Asocret/Aquafin, buitenmuur)",
+ "email_intros": {
+  "TYPE_1": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een e-mail over het inplannen van de&nbsp;gevelbehandeling. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze&nbsp;herinnering.</p>",
+  "TYPE_2": "<p style=\"margin:0 0 8px 0;\">Ongeveer&nbsp;een maand geleden stuurden we u een eerste herinnering over het inplannen van de&nbsp;gevelbehandeling. We&nbsp;hebben nog geen reactie ontvangen en sturen u daarom deze tweede&nbsp;herinnering.</p>"
+ },
+ "werkduur_paragraphs": {
+  "09": "<p style=\"margin:0 0 8px 0;\">De&nbsp;gevelbehandeling duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;werkdag</strong>.</p>",
+  "10": "<p style=\"margin:0 0 8px 0;\">De&nbsp;gevelbehandeling duurt maximaal&nbsp;<strong style=\"color:#333;\">een&nbsp;halve&nbsp;werkdag</strong>.</p>",
+  "11": "<p style=\"margin:0 0 8px 0;\">De&nbsp;gevelbehandeling duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">&eacute;&eacute;n&nbsp;werkdag</strong>.</p>",
+  "12": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">twee&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "13": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">drie&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "14": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vier&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "15": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">vijf&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "16": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zes&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "17": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">zeven&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "18": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">acht&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "19": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">negen&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>",
+  "20": "<p style=\"margin:0 0 8px 0;\">Het&nbsp;geheel van de gevelbehandeling, inclusief alle nodige wachttijden (droogtijden, uithardingstijden en cure-tijden tussen de lagen), duurt, afhankelijk van het aantal beschikbare uitvoerders, maximaal&nbsp;<strong style=\"color:#333;\">tien&nbsp;werkdagen</strong>.</p><p style=\"margin:0 0 8px 0;\">Door&nbsp;die wachttijden wordt er niet elke dag ter plaatse gewerkt: ze zijn nodig voor een correcte verwerking van de producten en zijn bewust zo&nbsp;gepland. Welke&nbsp;van de geplande dagen er effectief gewerkt wordt en welke niet, laat ik u vooraf per e-mail&nbsp;weten.</p>"
+ },
+ "cta_paragraphs": {
+  "09": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+  "10": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op een datum en tijdstip dat nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+  "11": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op een datum die nog beschikbaar is en het best&nbsp;uitkomt.</strong></p>",
+  "12": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op twee aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "13": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op drie aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "14": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op vier aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "15": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op vijf aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "16": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op zes aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "17": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op zeven aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "18": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op acht aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "19": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op negen aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>",
+  "20": "<p style=\"margin:10px 0 8px 0;\"><strong>Via&nbsp;onderstaande knop plant u de gevelbehandeling in op tien aaneensluitende werkdagen die nog beschikbaar zijn en het best&nbsp;uitkomen.</strong></p>"
+ },
+ "calendly_urls": {
+  "09": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-hele-dag",
+  "10": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-halve-dag",
+  "11": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-hele-dag",
+  "12": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "13": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "14": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "15": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "16": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "17": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "18": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "19": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen",
+  "20": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen"
+ },
+ "voorschot_section": {
+  "TYPE_2_ONLY": "<h3 style=\"margin:14px 0px 4px; font-size:16px; font-weight:bold;\">Voorschot</h3><ul style=\"list-style-position:outside; margin:0 0 8px 20px; padding-left:15px; font-family:Arial,sans-serif; font-size:14px; line-height:1.5; color:#333;\"><li style=\"margin:2px 0;\">Zonder&nbsp;reactie binnen 30&nbsp;dagen kunnen wij een voorschot van 30% aanrekenen<br>(conform &sect;4.13 van onze algemene&nbsp;voorwaarden).</li></ul>"
+ },
+ "teamlid_data": {
+  "Jean-Pierre": {
+   "naam": "Jean-Pierre",
+   "email": "jean-pierre@aquaproved.be",
+   "telefoon_display": "+32&nbsp;491&nbsp;255&nbsp;908",
+   "telefoon_link": "+32491255908"
+  },
+  "Pieter": {
+   "naam": "Pieter",
+   "email": "pieter@aquaproved.be",
+   "telefoon_display": "+32&nbsp;492&nbsp;476&nbsp;454",
+   "telefoon_link": "+32492476454"
+  },
+  "Yannick": {
+   "naam": "Yannick",
+   "email": "yannick@aquaproved.be",
+   "telefoon_display": "+32&nbsp;486&nbsp;355&nbsp;702",
+   "telefoon_link": "+32486355702"
+  },
+  "Yves": {
+   "naam": "Yves",
+   "email": "yves@aquaproved.be",
+   "telefoon_display": "+32&nbsp;492&nbsp;698&nbsp;275",
+   "telefoon_link": "+32492698275"
+  }
+ }
+}
