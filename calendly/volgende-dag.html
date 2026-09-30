@@ -13,6 +13,8 @@ body{margin:0;background:#fafafa;font-family:Arial,Helvetica,sans-serif;color:#0
 .v{width:48px;height:48px;border:3px solid #33b2d2;border-radius:50%;margin:0 auto 12px;display:flex;align-items:center;justify-content:center;color:#33b2d2;font-size:26px;font-weight:bold}
 h1{font-size:22px;margin:4px 0 6px}p{font-size:15px;line-height:1.5;margin:10px 0}
 ul{list-style:none;padding:0;margin:16px 0;font-size:16px;font-weight:bold;line-height:1.8}.s{color:#555;font-size:13px}
+.knop{display:inline-block;padding:10px 20px;font-weight:bold;font-size:15px;text-decoration:none;color:#33b2d2;border:2px solid #33b2d2;border-radius:999px}
+.knop2{color:#595857;font-size:14px}
 </style>
 </head>
 <body>
@@ -31,6 +33,9 @@ ul{list-style:none;padding:0;margin:16px 0;font-size:16px;font-weight:bold;line-
 //   utm_term     = aantal werkdagen (zet de planningsmail; 2..10)          → blijft ongewijzigd in de keten
 //   utm_campaign = "dagen:" + geboekte datums (YYYYMMDD, met ".")          → elke stap voegt de net geboekte dag toe
 // Genoeg dagen → bevestiging tonen; anders terug naar hetzelfde event, alles ingevuld, kalender op de volgende werkdag.
+// Bibliotheek (Wim 30/09): links van vóór 30/09 dragen geen utm_term. Dan komt het aantal uit BIB (build_vervolgdag_bibliotheek.py,
+// bron Teamleader: deals in fase Planningsmail, veld C = werkduur): eerst op dealnummer (utm_content, links sinds 24/09),
+// anders op vingerafdruk van het e-mailadres (mailHash; geen adressen op de openbare pagina). Onbekend → keuzescherm.
 
 var PROFIEL = "https://calendly.com/aquaproved";
 var DAGEN = ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"];
@@ -68,13 +73,26 @@ function basisUrl(p, tabel) {
 }
 
 // p = object met de queryparameters; geeft { soort: "terug"|"klaar"|"onbekend", url, dagen[], voornaam }
-function verwerk(p, tabel) {
+function geldig(x) { x = parseInt(String(x == null ? "" : x), 10); return (x >= 2 && x <= 10) ? x : 0; }
+
+// p = queryparameters (+ optioneel p._mailhash, door de pagina berekend); bib = { deal: {uuid: n}, mail: {hash: n} }
+function aantalDagen(p, bib) {
+  var n = geldig(p.utm_term);
+  if (n) return n;
+  bib = bib || {};
+  var d = String(p.utm_content || "").trim().toLowerCase();
+  if (d && bib.deal && bib.deal[d]) return geldig(bib.deal[d]);
+  if (p._mailhash && bib.mail && bib.mail[p._mailhash]) return geldig(bib.mail[p._mailhash]);
+  return 0;
+}
+
+// geeft { soort: "terug"|"klaar"|"kies"|"onbekend", url, dagen[], voornaam }
+function verwerk(p, tabel, bib) {
   var dagen = leesKeten(p.utm_campaign);
   var nu = isoDag(p.event_start_time);
   if (nu && dagen.indexOf(nu) < 0) dagen.push(nu);
   dagen.sort();
-  var n = parseInt(String(p.utm_term || ""), 10);
-  n = (n >= 2 && n <= 10) ? n : 0;
+  var n = aantalDagen(p, bib);
   var voornaam = String(p.invitee_first_name || String(p.invitee_full_name || "").split(" ")[0] || "").trim();
   if (n && dagen.length >= n) return { soort: "klaar", url: "", dagen: dagen, voornaam: voornaam };
 
@@ -91,11 +109,13 @@ function verwerk(p, tabel) {
   zet("utm_source", p.utm_source);
   zet("utm_medium", p.utm_medium);
   zet("utm_content", p.utm_content);
-  zet("utm_term", p.utm_term);
+  zet("utm_term", n || "");   // eenmaal gevonden (link of bibliotheek) reist het aantal mee in de keten
   if (dagen.length) zet("utm_campaign", "dagen:" + dagen.join("."));
   var volgende = volgendeWerkdag(dagen.length ? dagen[dagen.length - 1] : "");
   if (volgende) { zet("month", volgende.slice(0, 7)); zet("date", volgende); }
-  return { soort: "terug", url: basis + (q.length ? "?" + q.join("&") : ""), dagen: dagen, voornaam: voornaam };
+  var url = basis + (q.length ? "?" + q.join("&") : "");
+  // aantal onbekend (bv. syndicus met ander adres): niet eindeloos terugsturen, de klant kiest zelf
+  return { soort: n ? "terug" : "kies", url: url, dagen: dagen, voornaam: voornaam };
 }
 
 function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
@@ -106,6 +126,15 @@ function klaarInhoud(r) {
   return "<div class='v'>&#10003;</div><h1>Bevestigd</h1>" +
     "<p>" + (r.voornaam ? esc(r.voornaam) + ", u" : "U") + "w " + (n === 1 ? "werkdag is" : n + " werkdagen zijn") + " ingepland:</p>" +
     "<ul>" + lijst + "</ul><p>U ontvangt per dag een bevestiging per e-mail.</p><p class='s'>U mag dit venster sluiten.</p>";
+}
+
+function kiesInhoud(r) {
+  var lijst = r.dagen.map(function (d) { return "<li>" + esc(datumNl(d)) + "</li>"; }).join("");
+  return "<div class='v'>&#10003;</div><h1>Geboekt</h1>" +
+    "<p>" + (r.voornaam ? esc(r.voornaam) + ", u" : "U") + " heeft ingepland:</p><ul>" + lijst + "</ul>" +
+    "<p>Duren de werken nog een dag langer?</p>" +
+    "<p><a class='knop' href='" + esc(r.url) + "'>Volgende aansluitende dag inplannen</a></p>" +
+    "<p><a class='knop2' href='#' id='klaar'>Ik ben klaar</a></p>";
 }
 
 function params(search) {
@@ -123,16 +152,29 @@ function params(search) {
 
 
 var TABEL = {"27bc68cc-b648-4d6d-a061-915f4ca89979": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-halve-dag", "bfd85358-e157-46bc-877c-570e012184a3": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-hele-dag", "b8447b03-6464-4db8-8a68-f74e379cf57f": "https://calendly.com/aquaproved/aqp-behandeling-stopaq-uitvoering-halve-dag", "2ca065c8-141d-4c12-bd43-8df9cabc0d7c": "https://calendly.com/aquaproved/aqp-behandeling-stopaq-uitvoering-hele-dag", "db7948f2-8ea4-4a1a-845c-f2d105fe8106": "https://calendly.com/aquaproved/aqp-behandeling-stopaq-uitvoering-versch-dagen", "9c3d0ba8-0c02-445b-a8f5-4639c07c2904": "https://calendly.com/aquaproved/aqp-behandeling-technipox-uitvoering-halve-dag", "b3eb5e2b-1206-4b40-bab7-7987bec48788": "https://calendly.com/aquaproved/aqp-behandeling-technipox-uitvoering-hele-dag", "e61c0303-6116-4dfd-8928-0d71be3d747e": "https://calendly.com/aquaproved/aqp-behandeling-technipox-uitvoering-versch-dagen", "5d1b3069-3be9-430d-b0c5-05d9effdee1b": "https://calendly.com/aquaproved/behandeling-kelder-uitvoering-dagen", "92841aaf-8a4a-4bf5-8638-2b2ecd05ef3e": "https://calendly.com/aquaproved/aqp-dichting-garage-uitvoering-halve-dag", "29a5b507-eb68-4522-bed0-f45312955ad4": "https://calendly.com/aquaproved/aqp-dichting-garage-uitvoering-hele-dag", "67256c1f-0651-487f-aac8-60f1bd722c21": "https://calendly.com/aquaproved/aqp-dichting-garage-uitvoering-versch-dagen", "d54d3080-ac32-437a-90d5-dd0a8c1ca1f6": "https://calendly.com/aquaproved/aqp-dichting-liftput-uitvoering-halve-dag", "0b807e5c-15eb-4003-affe-8a4b7da29256": "https://calendly.com/aquaproved/aqp-dichting-liftput-uitvoering-hele-dag", "8a93d4d6-5cce-442e-96ad-8e0445ce0c77": "https://calendly.com/aquaproved/aqp-dichting-liftput-uitvoering-versch-dagen", "dfa9ab33-a2a2-49ac-a383-d0f4c57cbed0": "https://calendly.com/aquaproved/aqp-egalisatie-uitvoering-halve-dag", "94efcc88-a8f4-48ea-b05e-34027b1998af": "https://calendly.com/aquaproved/aqp-egalisatie-uitvoering-hele-dag", "475da0ca-270f-4bfd-ba74-cc7549e2ae0c": "https://calendly.com/aquaproved/aqp-egalisatie-uitvoering-versch-dagen", "a6558a90-6a69-4ba9-8ff5-610398708ae1": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-halve-dag", "174fdf60-03a3-4e71-9fe3-cd0577e432e7": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-hele-dag", "b85613ae-1972-4f4f-90f4-f87ff5126242": "https://calendly.com/aquaproved/aqp-gevelbehandeling-uitvoering-versch-dagen", "e01cceda-0bf7-4cdb-99dd-ed66383f536e": "https://calendly.com/aquaproved/aqp-gevelimpregnatie-halve-dag", "78ae56e3-81db-4c6d-9a56-ff595d2a3f45": "https://calendly.com/aquaproved/aqp-gevelimpregnatie-uitvoering-hele-dag", "a5304bf4-6f25-4dc2-915e-afc2546f6f25": "https://calendly.com/aquaproved/aqp-gevelimpregnatie-uitvoering-versch-dagen", "8ca376b1-d174-48b3-98b9-edf005375f95": "https://calendly.com/aquaproved/herstelling-kelder-uitvoering-halve-dag", "160a99b9-160c-439a-b222-59fb64126f4c": "https://calendly.com/aquaproved/herstelling-kelder-uitvoering-hele-dag", "245edf3a-041e-4d64-a404-3f33db4f5b54": "https://calendly.com/aquaproved/herstelling-kelder-uitvoering-kwart-dag", "97acc50a-b59d-41b1-b798-f9ae1055c01d": "https://calendly.com/aquaproved/herstelling-kelder-uitvoering-dagen", "d780147e-cbd9-427e-8f09-379d4377591a": "https://calendly.com/aquaproved/herstelling-opstijgend-vocht-uitvoering-4-uur", "e68c2a00-8259-4621-b0eb-2840ae70c905": "https://calendly.com/aquaproved/herstelling-opstijgend-vocht-uitvoering-dag", "c2a45452-3f80-4888-8830-9b3d07236a4f": "https://calendly.com/aquaproved/herstelling-uivoering-kwart-dag", "ea994866-ca51-4d14-82fd-12f22c2f6e46": "https://calendly.com/aquaproved/herstelling-opstijgend-vocht-uitvoering-meerdere-dagen", "15126d93-d6b4-4e65-a3ef-0e84c6869909": "https://calendly.com/aquaproved/herstel-vervang-ventilatie-uitvoering-halve-dag", "685d92ac-abf8-4d8c-8188-02e3c206f888": "https://calendly.com/aquaproved/herstel-vervang-ventilatie-uitvoering-kwart-dag", "4baeac43-b72f-4113-863c-ec64c7e3e632": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-muur-uitvoering-halve-dag", "ff8317f0-05ca-49f9-bf4a-c65d09daf049": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-muur-uitvoering-hele-dag", "114ac93b-650d-4643-a1ef-1e301e3454a9": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-muur-uitvoering-versch-dagen", "70961a68-86c4-4ecf-8cb2-d863279a4386": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-halve-dag", "fb534587-6091-4a76-8902-68b07aa75218": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-hele-dag", "ab8f0efd-d5fc-4b14-bc2a-cd5eb9ccc7e3": "https://calendly.com/aquaproved/aqp-herstel-vochtschade-plafond-uitvoering-versch-dagen", "583ddb0a-8cc4-427b-97e2-6a33c4fcccb1": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-halve-dag", "13b24c25-b0a5-4688-8487-455baf21a59e": "https://calendly.com/aquaproved/behandeling-kelder-dichting-uitvoering-dag", "bc71a87d-7084-4692-ac60-562abafd59fe": "https://calendly.com/aquaproved/behandeling-kelderdichting-uitvoering-dagen", "e29de56c-b2df-49b3-a612-e001a4784cf0": "https://calendly.com/aquaproved/behandeling-kelderdrainage-uitvoering-halve-dag", "61df1d8b-23dd-4c9b-ada4-04b549d29d47": "https://calendly.com/aquaproved/behandeling-kelder-drainage-uitvoering-dag", "7b5e1fb6-48f1-4ab2-90e5-0c64182308b3": "https://calendly.com/aquaproved/behandeling-kelderdrainage-uitvoering-dagen", "BEANO7UETH3SBTUW": "https://calendly.com/aquaproved/uitvoering-halve-dag", "HDGJP3VAUD3TAVG6": "https://calendly.com/aquaproved/uitvoering-hele-dag", "e83e49f6-2b39-4907-92a3-2331aae18972": "https://calendly.com/aquaproved/aqp-opstijgend-vocht-uitvoering-kwart-dag", "ABAPP2UCSB7QFIMP": "https://calendly.com/aquaproved/uitvoering-meerdere-dagen", "42118cf5-d5ec-4d39-be7d-dce00dc99e00": "https://calendly.com/aquaproved/aqp-pompunit-en-afvoer-uitvoering-halve-dag", "7dbbbb5f-49df-40b3-a287-58135b7543db": "https://calendly.com/aquaproved/aqp-pompunit-en-afvoer-uitvoering-hele-dag", "6571593e-5b9b-45b3-b565-bdc452cebcd0": "https://calendly.com/aquaproved/aqp-pompunit-en-afvoer-uitvoering-versch-dagen", "27e04388-969d-4091-a9a5-9cff1db9f3fc": "https://calendly.com/aquaproved/type-c-halve-dag", "d3cf8846-5d20-429a-95af-ce6d0ecd738f": "https://calendly.com/aquaproved/type-c-uitvoering-dag", "9df2c2ad-c5c0-452b-b834-f077202af725": "https://calendly.com/aquaproved/installatie-ventilatie-type-c-uitvoering-dagen", "DHCPO4NZ76RJKI3X": "https://calendly.com/aquaproved/type-d-halve-dag", "9b447e7e-5f8d-42b6-aff0-f457a29320d8": "https://calendly.com/aquaproved/type-d-uitvoering-dag", "685b93f8-30c7-4338-b63b-fcde554a64f5": "https://calendly.com/aquaproved/type-d-dagen"};
-(function () {
+var BIB = {"deal": {"04c91c1b-9f19-030f-857c-49f252262218": 3, "0d41df98-1f7a-062e-9073-b6f6911355c4": 2, "13c43cc8-00b3-0ef6-b271-249ed2204aed": 2, "296de6d6-eee6-013e-b273-b3162215a1ec": 2, "33a88b05-d3d9-0eb0-a37d-be94d1da912f": 3, "357a5d1e-f9f0-09b2-a07d-9cd3f223bfe5": 2, "44951fcd-4b4d-07a7-a474-f0d5b1f1ad33": 5, "5472d54c-cf3a-06da-847f-ca3651ef0127": 2, "64abdc4b-91da-0855-ae7d-93d6a21fb638": 3, "74f3171a-8184-0944-b078-234791bc9fed": 2, "791116c2-8574-0bd3-8170-63d9d1eb719a": 2, "98acb9c9-f6dc-0d72-ad71-a1dec21451a7": 3, "b85f0ba7-c11b-00cb-b979-a2e001fbe139": 2, "baf5c0ae-01fa-0a71-b570-defdb222b451": 2, "cae2f172-2ee5-01dc-9878-7145c1e5fd66": 3, "d8b534ef-6f2f-02c6-9d7e-8181021833af": 5, "fecc1ef4-cead-0758-ad77-c2ef81f9d389": 2}, "mail": {"14fe4337bf1b07e2": 3, "32b9c3db1f3d71bb": 2, "4258fabad7cac69a": 2, "4552ae9b37fce156": 2, "4806aabf49582a9e": 5, "63f25fe33972f647": 3, "6b877aca8b8b8730": 2, "6c68b8691ca0d0ed": 3, "80d50d940ef586f8": 3, "844a4f9bb203c876": 2, "99c0de193ca493cf": 5, "9cf8bb80781020f4": 2, "acb23d36db0b2b01": 2, "d02af1e61dc3b2a2": 3, "d68b5c8fadd5248a": 2, "dde19f3905a25600": 2, "f6c802fb2f65e22c": 2}};
+function toon(html) {
+  document.getElementById("inhoud").innerHTML = html;
+  document.getElementById("k").style.display = "block";
+  try { history.replaceState(null, "", location.pathname); } catch (e) {}
+}
+function ga(p) {
   var r;
-  try { r = verwerk(params(location.search), TABEL); } catch (e) { r = { soort: "onbekend", url: PROFIEL }; }
-  if (r.soort === "klaar") {
-    document.getElementById("inhoud").innerHTML = klaarInhoud(r);
-    document.getElementById("k").style.display = "block";
-    try { history.replaceState(null, "", location.pathname); } catch (e) {}
-  } else {
-    location.replace(r.url);
-  }
+  try { r = verwerk(p, TABEL, BIB); } catch (e) { r = { soort: "onbekend", url: PROFIEL }; }
+  if (r.soort === "klaar") toon(klaarInhoud(r));
+  else if (r.soort === "kies") {
+    toon(kiesInhoud(r));
+    document.getElementById("klaar").onclick = function (ev) { ev.preventDefault(); toon(klaarInhoud(r)); };
+  } else location.replace(r.url);
+}
+(function () {
+  var p = params(location.search), adres = String(p.invitee_email || "").trim().toLowerCase();
+  // vingerafdruk van het e-mailadres enkel nodig als de link geen aantal en geen gekend dealnummer draagt
+  if (aantalDagen(p, BIB) || !adres || !(window.crypto && crypto.subtle)) return ga(p);
+  crypto.subtle.digest("SHA-256", new TextEncoder().encode("aqp-planning:" + adres)).then(function (b) {
+    p._mailhash = Array.prototype.map.call(new Uint8Array(b), function (x) { return ("0" + x.toString(16)).slice(-2); }).join("").slice(0, 16);
+    ga(p);
+  }, function () { ga(p); });
 })();
 </script>
 </body>
